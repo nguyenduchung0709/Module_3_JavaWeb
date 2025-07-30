@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Giản Lược</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background-color: #1877f2;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 24px;
+            z-index: 1000;
+        }
+
+
+        .container {
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #f0f2f5;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .main {
+            margin-left: 20%;
+            width: 80%;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Facebook
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <a href="#">Trang chủ</a>
+        <a href="#">Bạn bè</a>
+        <a href="#">Nhóm</a>
+        <a href="#">Marketplace</a>
+    </div>
+
+    <div class="main">
+        <h2>Chào mừng bạn đến với Facebook!</h2>
+        <p>Đây là giao diện mô phỏng đơn giản, chưa có nội dung hiển thị.</p>
+    </div>
+</div>
+
+</body>
+</html>
