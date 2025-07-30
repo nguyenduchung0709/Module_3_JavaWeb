@@ -1,10 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            height: 100px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            border-radius: 5px
+        }
+        #nav {
+            margin-top: 5px;
+            background-color: lightgray;
+            border-radius: 5px;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        #nav p {
+            margin: 0;
+            font-size: large;
+        }
+
+        #article p {
+            font-size : 35px;
+            background-color: lightgray;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 10px;
+
+        }
+        #section p {
+
+
+        }
+        #section {
+            background: lightgray;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #content {
+            width: 80%
+        }
+        #aside {
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #footer p  {
+            background-color: lightgray;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+        #main {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
+<header id="header">
+    <h1>Monday News</h1>
+</header>
+<nav id="nav">
+    <p><a href="">News</a></p>
+    <p><a href="">Sports</a></p>
+    <p><a href="">Weather</a></p>
+</nav>
+<div id="main">
+    <aside id="aside">
+        <p>First</p>
+        <p>Second</p>
+        <p>Third</p>
+        <p>Fourth</p>
+        <p>Fifth</p>
+        <p>Sixth</p>
+    </aside>
+    <div id="content">
+<article id="article">
+    <p>News</p>
+</article>
+<section id="section">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut cumque, excepturi fugiat illo, minus
+        nesciunt nihil officiis optio pariatur provident quidem quisquam ratione, recusandae rerum sed tempore vero
+        voluptas!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut cumque, excepturi fugiat illo, minus
+        nesciunt nihil officiis optio pariatur provident quidem quisquam ratione, recusandae rerum sed tempore vero
+        voluptas!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut cumque, excepturi fugiat illo, minus
+        nesciunt nihil officiis optio pariatur provident quidem quisquam ratione, recusandae rerum sed tempore vero
+        voluptas!</p>
+</section>
+    </div>
 
+</div>
+<footer id="footer">
+    <p>&copy; 2014 Monday News. All rights reserved. </p>
+</footer>
 </body>
 </html>
